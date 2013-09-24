@@ -86,6 +86,13 @@ PATH
   specs:
     blogsoso (0.0.1)
       rails (~> 4.0.0)
+      rails (~> 4.0.0)
+
+PATH
+  remote: vendor/engines/blogsoso_admin
+  specs:
+    blogsoso_admin (0.0.1)
+      rails (~> 4.0.0)
 
 GEM
   remote: http://rubygems.org/
@@ -398,6 +405,7 @@ DEPENDENCIES
   activeresource (= 4.0.0)
   bcrypt-ruby (~> 3.0.0)
   blogsoso!
+  blogsoso_admin!
   capistrano (= 2.15.5)
   capybara
   chinese_pinyin

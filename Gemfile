@@ -150,5 +150,5 @@ gem 'thin'
 # gem 'passenger', '4.0.10'
 
 gem 'blogsoso',       :path => "#{File.dirname(__FILE__)}/vendor/engines/blogsoso"
-# gem 'blogsoso_admin',       :path => "#{File.dirname(__FILE__)}/vendor/engines/blogsoso_admin"
+gem 'blogsoso_admin',       :path => "#{File.dirname(__FILE__)}/vendor/engines/blogsoso_admin"
 

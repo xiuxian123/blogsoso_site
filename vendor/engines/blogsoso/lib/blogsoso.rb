@@ -1,3 +1,4 @@
+require "blogsoso/settings"
 require "blogsoso/config"
 require "blogsoso/engine"
 

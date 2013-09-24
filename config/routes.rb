@@ -1,4 +1,12 @@
 BlogsosoSite::Application.routes.draw do
+  mount ::LoyalPassport::Engine,  :at => '/', :as => :loyal_passport_app
+  mount ::LoyalAdmin::Engine,     :at => '/', :as => :loyal_admin_app
+  mount ::LoyalCore::Engine,      :at => '/', :as => :loyal_core_app
+
+  mount ::Blogsoso::Engine,       :at => '/', :as => :blogsoso_app
+  mount ::BlogsosoAdmin::Engine,  :at => '/', :as => :blogsoso_admin_app
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,0 +1,11 @@
+configs:
+  domain:      'blogsoso-test.net'
+  hosts:
+    default:   'www.blogsoso-test.net'        # 缺省站点
+    web:       'www.blogsoso-test.net'        # 电脑版本
+    api:       'api.blogsoso-test.net'        # api
+    passport:  'passport.blogsoso-test.net'   # 通行证
+    admin:     'admin.blogsoso-test.net'      # 管理后台
+    blog:      'blog.blogsoso-test.net'       # 个人中心
+    out:       'out.blogsoso-test.net'        # out页面
+

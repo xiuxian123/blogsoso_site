@@ -38,11 +38,11 @@ end
 LoyalAdmin.configure do |config|
   config.subdomain = ::Settings.configs.subdomains.admin
 
-  # config.white_hosts = {
-  #   ::Blogsoso::Settings.configs.hosts.admin => {
-  #     :view_paths => ::BlogsosoAdmin.config.admin_view_path
-  #   }
-  # }
+  config.white_hosts = {
+    ::Blogsoso::Settings.configs.hosts.admin => {
+      :view_paths => ::BlogsosoAdmin.config.admin_view_path
+    }
+  }
 end
 
 # LoyalCore ###################################################################
@@ -87,9 +87,9 @@ LoyalPassport.configure do |config|
   config.subdomain = ::Settings.configs.subdomains.passport
 
   config.white_hosts = {
-    # ::Blogsoso::Settings.configs.hosts.passport => {
-    #   :view_paths => ::Blogsoso.config.passport_view_path
-    # }
+    ::Blogsoso::Settings.configs.hosts.passport => {
+      :view_paths => ::Blogsoso.config.passport_view_path
+    }
   }
 
   config.cancan_abilities = ::Blogsoso.config.cancan_abilities
