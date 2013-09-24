@@ -104,9 +104,7 @@ gem 'jquery-ui-rails'
 
 ############## end happy add #############################
 ##########################################################
-
-############# happy vendor here ##########################
-
+############# happy vendor here ########################## 
 ####### gems    ##########################################
   # gem 'loyals', :path => '../../engines/loyals'
   # gem 'tiny_cache', :path => '../../engines/loyals/projects/tiny_cache'
@@ -150,4 +148,7 @@ gem 'thin'
 # sudo passenger-install-nginx-module
 # sudo passenger-install-apache2-module
 # gem 'passenger', '4.0.10'
+
+gem 'blogsoso',       :path => "#{File.dirname(__FILE__)}/vendor/engines/blogsoso"
+# gem 'blogsoso_admin',       :path => "#{File.dirname(__FILE__)}/vendor/engines/blogsoso_admin"
 

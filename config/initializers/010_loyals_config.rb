@@ -22,6 +22,18 @@ RailsKindeditor.setup do |config|
 
 end
 
+if defined?(Blogsoso)
+  Blogsoso.configure do |config|
+  
+  end
+end
+
+if defined?(BlogsosoAdmin)
+  BlogsosoAdmin.configure do |config|
+  
+  end
+end
+
 # LoyalAdmin ##################################################################
 LoyalAdmin.configure do |config|
   config.subdomain = ::Settings.configs.subdomains.admin
