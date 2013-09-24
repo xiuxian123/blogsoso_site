@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from loyal_core (originally 20130811062658)
 class ActsAsTaggableOnMigration < ActiveRecord::Migration
   def self.up

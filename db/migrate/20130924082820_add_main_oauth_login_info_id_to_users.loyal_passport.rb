@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from loyal_passport (originally 20130918105349)
 class AddMainOauthLoginInfoIdToUsers < ActiveRecord::Migration
   def change

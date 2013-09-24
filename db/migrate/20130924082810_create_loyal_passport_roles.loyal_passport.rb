@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from loyal_passport (originally 20121123025990)
 # -*- encoding : utf-8 -*-
 class CreateLoyalPassportRoles < ActiveRecord::Migration

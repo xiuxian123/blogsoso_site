@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Blogsoso
   class Engine < ::Rails::Engine
     isolate_namespace Blogsoso

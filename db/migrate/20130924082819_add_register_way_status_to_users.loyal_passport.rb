@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from loyal_passport (originally 20130918092035)
 class AddRegisterWayStatusToUsers < ActiveRecord::Migration
   def change

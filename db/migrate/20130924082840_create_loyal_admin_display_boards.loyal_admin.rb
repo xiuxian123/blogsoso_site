@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from loyal_admin (originally 20130612063348)
 # -*- encoding : utf-8 -*-
 class CreateLoyalAdminDisplayBoards < ActiveRecord::Migration

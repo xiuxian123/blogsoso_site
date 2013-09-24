@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from loyal_passport (originally 20130323050903)
 # -*- encoding : utf-8 -*-
 class CreateLoyalPassportLockers < ActiveRecord::Migration

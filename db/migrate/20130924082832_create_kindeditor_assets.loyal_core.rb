@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from loyal_core (originally 20130413061851)
 # -*- encoding : utf-8 -*-
 class CreateKindeditorAssets < ActiveRecord::Migration

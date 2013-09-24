@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from loyal_core (originally 20130610091558)
 # -*- encoding : utf-8 -*-
 class CreateLoyalCoreSkinFolders < ActiveRecord::Migration

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from loyal_core (originally 20130331104216)
 # -*- encoding : utf-8 -*-
 class CreateLoyalCoreRatingTracks < ActiveRecord::Migration

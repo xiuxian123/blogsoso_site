@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from loyal_passport (originally 20130625053334)
 # -*- encoding : utf-8 -*-
 class CreateLoyalPassportOauthBinds < ActiveRecord::Migration

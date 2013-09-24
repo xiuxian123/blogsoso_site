@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from loyal_passport (originally 20121125104021)
 # -*- encoding : utf-8 -*-
 class AddSessionsTable < ActiveRecord::Migration
