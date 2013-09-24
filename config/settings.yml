@@ -4,11 +4,9 @@ configs:
   servers:
     assets: 'http://i0.assets.blogsoso.com'
 
-  hosts:
-    admin:    'admin.blogsoso.com'
-
   subdomains:
     passport: 'passport'
+    admin:    'admin'
 
   action_mailer:
     perform_deliveries: true
