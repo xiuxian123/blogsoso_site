@@ -51,11 +51,6 @@
 /tags
 
 vendor/engines/*/tags
-vendor/gems/tiny_cache/tags
-vendor/gems/loyal_simple_captcha/tags
-vendor/loyals/loyal_core/tags
-vendor/loyals/loyal_passport/tags
-vendor/gems/rails_kindeditor/tags
 
 **.log
 

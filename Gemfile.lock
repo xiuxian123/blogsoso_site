@@ -151,7 +151,6 @@ GEM
     columnize (0.3.6)
     crack (0.4.1)
       safe_yaml (~> 0.9.0)
-    daemon_controller (1.1.5)
     daemons (1.1.9)
     dalli (2.6.4)
     database_cleaner (1.1.1)
@@ -261,10 +260,6 @@ GEM
     options (2.3.0)
       fattr
     orm_adapter (0.4.0)
-    passenger (4.0.10)
-      daemon_controller (>= 1.1.0)
-      rack
-      rake (>= 0.8.1)
     polyglot (0.3.3)
     progress_bar (1.0.0)
       highline (~> 1.6.1)
@@ -414,7 +409,6 @@ DEPENDENCIES
   loyals!
   magic_encoding
   mysql2
-  passenger (= 4.0.10)
   progress_bar
   protected_attributes
   pry

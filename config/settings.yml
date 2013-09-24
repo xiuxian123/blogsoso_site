@@ -1,0 +1,42 @@
+configs:
+  secret_key_base: '7000079508006d3006003a5d5935f197245d9b89960ff4e127cdde2a65838f78c2b513d3808036390cb26a17792fe5da842660d866ae8448d0237e12fa06a7f9'
+
+  servers:
+    assets: 'http://i0.assets.blogsoso.com'
+
+  hosts:
+    admin:    'admin.blogsoso.com'
+
+  subdomains:
+    passport: 'passport'
+
+  action_mailer:
+    perform_deliveries: true
+    default_url_options:
+      host: passport.xiuxian123.com
+    smtp_settings:
+      domain: gmail.com
+      port: 587
+      user_name: ruby800.testing
+      password: jinzhong
+      address: smtp.gmail.com
+      authentication: plain
+      enable_starttls_auto: true
+
+oauth:
+  providers:
+    github:
+      enabled:       true
+      client_secret: '***'
+      client_id:     '***'
+
+    qq_connect:
+      enabled:       true
+      client_secret: '***'
+      client_id:     '***'
+
+    google:
+      enabled:       false
+      client_secret: '***'
+      client_id:     '***'
+
