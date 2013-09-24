@@ -52,7 +52,7 @@ GIT
 
 GIT
   remote: git://github.com/xiuxian123/loyal_passport.git
-  revision: b0195631125939242a57eeb7f7b5f3a5982512f6
+  revision: 37b4345b2bb8352ceafd999f38e9bc9678864986
   specs:
     loyal_passport (0.0.8)
       cancan
@@ -73,7 +73,7 @@ GIT
 
 GIT
   remote: git://github.com/xiuxian123/loyals.git
-  revision: 867dc1168be9fc998a89f5f829e7441923ef4c86
+  revision: f617c8e63aae27eb031a3f65742fe8fab4df1fe8
   specs:
     loyals (0.0.2)
       loyal_admin
